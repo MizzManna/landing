@@ -1,0 +1,36 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Shadows+Into+Light&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url(components/banner.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Bilbo Swash Caps;
+}
+
+h1 {
+  font-family: Bilbo Swash Caps;
+  font-weight: bold;
+  font-size: 120px;
+}
+
+h2, h3, h4 {
+  font-family: Bilbo Swash Caps;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
